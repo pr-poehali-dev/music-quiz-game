@@ -8,6 +8,7 @@ interface Question {
   id: number;
   artist: string;
   song: string;
+  audioUrl: string;
   options: string[];
   correct: number;
   explanation: string;
